@@ -1,0 +1,40 @@
+1) Introduce exceptions
+
+2) Write an interface and one implementation of this interface which uses ez\_sql
+
+3) New additions:-
+> a) delete(cascade = false)
+
+> b) fetchmembers can skip over arrays and dictionaries
+
+> c) search?
+
+> d) re-examine array and dictionary types and alternative implementations for these
+> e) optimize deleting of arrays, multiple insert queries
+
+> f) changing into php5 ctor, syntax, etc.
+
+> g) making it as inheritance based model
+
+> h) add member types and member limits (similar to validator) to xml so that
+persister can do server side validation before doing any inserts into DB
+
+> i) log file to update all transactions (for different levels - errors, warnings, info)
+
+> j) transaction support
+
+
+Questions:
+
+1) Method sig of c
+
+2) Breaking backward compatibility - d and g
+
+3)Recursive arrays
+
+4)
+
+
+
+GOLDEN ADDITIONS:
+exceptions, transactions, server side validation
